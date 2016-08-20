@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link href="styles/numPad.css" rel="stylesheet">
+	<script src="js/numPad.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+<h1>Editing <span id="pramName"></span></h1>
+<input type="text" id="textBox" value="Enter Value" />
+	<div id="numDiv">
+		<table class="numTable">
+			<tr>
+				<td><input type="button" class="numButton" id="seven" value="7"></input></td>
+				<td><input type="button" class="numButton" id="eight" value="8"></td>
+				<td><input type="button" class="numButton" id="nine" value="9"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="numButton" id="four" value="4"></td>
+				<td><input type="button" class="numButton" id="five" value="5"></td>
+				<td><input type="button" class="numButton" id="six" value="6"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="numButton" id="one" value="1"></td>
+				<td><input type="button" class="numButton" id="two" value="2"></td>
+				<td><input type="button" class="numButton" id="three" value="3"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" class="numButton" id="zero" value="0"></td>
+				<td><input type="button" class="numButton" id="backspace" value="<"></td>
+			</tr>
+
+			</table>
+		</div>
+		<div id="confirmDiv">
+		<table class="numTable">
+			<tr>
+				<td width="30%"><input type="button" class="numButton" id="cancel" value="Cancel"></td>
+				<td><input type="button" class="numButton" id="ok" value="Ok"></td>
+			</tr>
+		</table>
+		</div>
+
+</body>
+</html>

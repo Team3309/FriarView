@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+	padding= 0;	
+}
+h1{
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+body{
+	background-image:url('../images/black_pattern04.jpg');
+	background-size: cover;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right:0;
+	left:0;
+	border-radius: 3vw;
+	border: 1vw solid;
+	border-color: green;
+}
+
+.numButton{
+	width: 100%;
+	height: 100%;
+	font-size: 5vh;
+	outline: 0;
+	padding: 0;
+	display: inline-block;
+	color: #9fa8b0;
+	font-weight: bold;
+	text-shadow: 1px 1px #1f272b;
+	border: 1px solid #1c252b;
+	-webkit-border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#3D4850), color-stop(4%,#313d45), color-stop(100%,#232B30)); /* webkit */
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2); /* Safari, Chrome */
+}
+
+.numButton:hover {
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#4C5A64), color-stop(4%,#404F5A), color-stop(100%,#2E3940)); /* webkit */
+}
+
+.numTable{
+	width: 100%;
+	height: 100%;
+}
+
+#numDiv{
+	position: absolute;
+	top: 13%;
+	right: 2%;
+	left: 2%;
+	bottom: 20%;
+}
+
+#textBox{
+	position: absolute;
+	width: 96%;
+	right: 2%;
+	left: 2%;
+	top: 5%;
+	font-size: 5vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: green;
+}
+
+#confirmDiv{
+	position: absolute;
+	bottom: 2%;
+	top: 82%;
+	right: 2%;
+	left: 2%;
+	}

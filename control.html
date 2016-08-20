@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>5 Nights</title>
+	<link href="styles/master.css" rel="stylesheet">
+	<link href="styles/flipclock.css" rel="stylesheet">
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/flipclock.js"></script>
+	<script src="js/tween.js"></script>
+	<script src="js/steelseries.js"></script>
+	<script src="js/networktables.js"></script>
+	<script src="js/ntFunctions.js"></script>
+	<script src="js/serial.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+	<div id="Display">
+	<div id ="clockWrapper">
+		<table align="center">
+			<tr>
+				<td align="center"><div class="divClock"></div></td>
+			</tr>
+		</table>
+	</div>
+		<canvas class="optionCanvas" id="canvasOdometer"></canvas>
+		<canvas class="optionCanvas" id="canvasBattery"></canvas>
+
+	</div>
+
+
+	<div id="footer">
+		<table class="leftTable" align="left">
+			<tr>
+			<td><input type="button" class="button" id="resetClock" value="Reset"></input></td>
+			<td><input type="button" class="button" id="startClock" value="Start"></input></td>
+			<td><input type="button" class="button" id="pauseClock" value="Pause"></input></td>
+			</tr>
+		</table>
+		<table class="rightTable" align="right">
+			<tr>
+			<td><strong>Serial Comms-  <span id="serialStatus" color="red">Port Closed</span></strong></td>
+			<td><select id="portDropdown">
+				<option>Select Port...</option>
+				</select>
+			</td>
+			<td><input type="button" class="button" id="openPort" value="Open"></input></td>
+			<td><input type="button" class="button" id="closePort" value="Close"></input></td>
+			<td><input type="button" class="button" id="refreshPort" value="Refresh"></input></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

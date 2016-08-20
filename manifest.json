@@ -1,0 +1,18 @@
+{
+  "name": "FriarView",
+  "manifest_version": 2,
+  "description": "Program for monitoring FRC Robots.",
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": { "36": "images/friar36.png", "512": "images/friar512.png" },
+  "permissions": [
+     "serial",
+     "fullscreen",
+     "tts",
+     "usb"
+  ]
+}

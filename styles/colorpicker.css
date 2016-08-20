@@ -1,0 +1,137 @@
+/* colorpicker styles */
+#colorpicker1 {
+    background-color: #222222;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px #444444;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: absolute;
+    top: 10%;
+    bottom: 2%;
+    left: 1%;
+    right: 67%;
+}
+#colorpicker2 {
+    background-color: #222222;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px #444444;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: absolute;
+    top: 10%;
+    bottom: 2%;
+    left: 34%;
+    right: 34%;
+}
+#colorpicker3 {
+    background-color: #222222;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px #444444;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: absolute;
+    top: 10%;
+    bottom: 2%;
+    left: 67%;
+    right: 1%;
+}
+
+.controlFooter{
+	position: absolute;
+	top: 76%;
+	bottom: 2%;
+	left: 2%;
+	right: 25%;
+	border: 1px solid #2F2F2F;
+}
+
+.actualState{
+	position: absolute;
+	top: 85%;
+	bottom: 2%;
+	left: 80%;
+	right: 2%;
+	border: 1px solid #2F2F2F;
+	text-align: center;
+}
+
+.picker {
+    cursor: crosshair;
+    padding: .5vw;
+    position: absolute;
+    border: 1px solid #2F2F2F;
+    left: 2%;
+    right: 25%;
+    top: 7%;
+    bottom: 25%;
+}
+
+.controls {
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    left: 80%;
+    bottom: 25%;
+}
+.controls > div {
+    border: 1px solid #2F2F2F;
+    margin-bottom: .4vw;
+    overflow: hidden;
+    padding: .4vw;
+}
+.controls label {
+    align: left;
+    font-size: .65vw;
+}
+.controls > div input[type=text] {
+    background-color: black;
+    border: 1px solid #2F2F2F;
+    color: #DDDDDD;
+    font-size: .75vw;
+    width: 2.5vw;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.preview {
+    background: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #444444;
+    cursor: pointer;
+}
+
+.actual {
+    background: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #444444;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    bottom: 6%;
+    right: 6%;
+    left: 6%;
+}
+
+#preview1{
+    position: absolute;
+    left: 1%;
+    right: 67%;
+    top: 2%;
+    bottom: 91%;
+    }
+#preview2{
+    position: absolute;
+    left: 34%;
+    right: 34%;
+    top: 2%;
+    bottom: 91%;
+    }
+#preview3{
+    position: absolute;
+    left: 67%;
+    right: 1%;
+    top: 2%;
+    bottom: 91%;
+    }
